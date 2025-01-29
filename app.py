@@ -1,5 +1,5 @@
 from models import db, Automobilis
-from flask import Flask, render_template, request, url_for, redirect, jsonify
+from flask import Flask, render_template, jsonify
 from serializers import AutomobilisSchema
 from flask_cors import CORS
 
